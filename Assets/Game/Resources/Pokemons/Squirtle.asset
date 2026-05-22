@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dee014e257a4a488052885e8a9f778, type: 3}
+  m_Name: Squirtle
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  name: Squirtle
+  description: 
+  frontSprite: {fileID: 7028616704906629411, guid: d198e72379ee1c84aa2852de113fed12, type: 3}
+  backSprite: {fileID: 7028616704906629411, guid: 58fa577be718927428112eb91a6f797b, type: 3}
+  type1: 3
+  type2: 0
+  maxHp: 44
+  attack: 48
+  defence: 65
+  spAttack: 65
+  spDefence: 65
+  speed: 43
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cd169d7eaeebb0344b24037d2f6f38c0, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c755133540112e349ac52d41b192f087, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 97bf44f93c450cb4caecf8967e22d54f, type: 2}
+    level: 7

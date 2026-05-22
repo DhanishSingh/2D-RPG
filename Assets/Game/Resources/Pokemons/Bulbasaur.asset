@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13dee014e257a4a488052885e8a9f778, type: 3}
+  m_Name: Bulbasaur
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonBase
+  name: Bulbasaur
+  description: 
+  frontSprite: {fileID: -855298285791758126, guid: 442877ddfeffc4846a2bb8c8812e8c5b, type: 3}
+  backSprite: {fileID: -855298285791758126, guid: edf591c8defb7814892fa1b5a0ede9d6, type: 3}
+  type1: 5
+  type2: 8
+  maxHp: 45
+  attack: 49
+  defence: 49
+  spAttack: 65
+  spDefence: 65
+  speed: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: cd169d7eaeebb0344b24037d2f6f38c0, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: c755133540112e349ac52d41b192f087, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 7533594bb8d5d584696e27e8bbdd4cae, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: 9cd255466f056dc41ba8f95aaca0b526, type: 2}
+    level: 10
